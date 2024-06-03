@@ -3,7 +3,7 @@
 }
 
 body{
-    background: rgb(23, 7, 53) ;
+    background: rgb(113, 52, 228) ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,7 +76,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .contain  div{
-    border: 2px solid black;
+    
     width: 160px; height: 148px;
     background-color: #8e44ad;
 }
