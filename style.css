@@ -89,9 +89,16 @@ nav ul li:hover, nav ul li.active {
 }
 
 .books  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #1a084b;
     border: 2px solid black;
     width: 160px; height: 148px;
-    background-color: #8e44ad;
+    background: url('images.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .middle-content{
