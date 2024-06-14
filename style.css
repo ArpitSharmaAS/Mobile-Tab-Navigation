@@ -11,6 +11,9 @@ body{
     margin: 0;
 }
 
+.e{
+    font-family: "Dancing Script", cursive;
+}
 .phone{
     position: relative;
     overflow-x: hidden;
@@ -86,6 +89,29 @@ nav ul li:hover, nav ul li.active {
     margin-top: 30px;
     margin-left: 20px;
     gap: 20px;
+}
+
+
+.item1{
+    background-image: url('4.png');
+}
+.item2{
+    background-image: url('1.png');
+}
+.item3{
+    background-image: url('5.png');
+}
+.item4{
+    background-image: url('2.png');
+}
+.item4{
+    background-image: url('2.png');
+}
+.item5{
+    background-image: url('6.png');
+}
+.item6{
+    background-image: url('3.png');
 }
 
 .books  div{
