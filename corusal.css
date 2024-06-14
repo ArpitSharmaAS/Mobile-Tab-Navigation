@@ -101,7 +101,7 @@
     margin: auto 0;
     opacity: 0;
     color: #fff;
-    background: rgba(0 0 0 / 0.7);
+    /* background: rgba(0 0 0 / 0.7); */
   }
   
   .kb-carousel:hover .kb-control-prev,
@@ -122,7 +122,7 @@
   .kb-control-next:hover,
   .kb-control-next:focus {
     color: #fff;
-    background: rgba(0 0 0 / 1);
+    /* background: rgba(0 0 0 / 1); */
   }
   
   /* Support for dark mode */
