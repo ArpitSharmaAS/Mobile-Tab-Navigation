@@ -77,12 +77,15 @@ nav ul li:hover, nav ul li.active {
     margin-left: 20px;
     gap: 30px;
 }
-
-.contain  div{
-    
-    width: 160px; height: 148px;
-    background-color: #8e44ad;
+.contain a{
+    text-decoration: none;
+    width: 50px !important;
 }
+.contain a img{
+    border-radius: 10px;
+    border: solid 2px wheat;
+}
+
 .books{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -92,8 +95,26 @@ nav ul li:hover, nav ul li.active {
 }
 
 
+.books  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #1a084b;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 160px; height: 148px;
+    background: url('images.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .item1{
     background-image: url('4.png');
+    background-size: cover; /* keeps image quality */
+    background-position: center;
+    width: 300px;
+    height: 300px;
 }
 .item2{
     background-image: url('1.png');
@@ -114,18 +135,6 @@ nav ul li:hover, nav ul li.active {
     background-image: url('3.png');
 }
 
-.books  div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    color: #1a084b;
-    border: 2px solid black;
-    width: 160px; height: 148px;
-    background: url('images.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 .middle-content{
     color: #000;
